@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Artikel</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>JUDUL</th>
+        <th>TANGGAL</th>
+        <th>PENULIS</th>
+        <th>ISI ARTIKEL</th>
+        <th>SUMBER</th>
+      </tr>
+      <tr>
+        <td>Rukun Wudhu</td>
+        <td>25 Sept 2015</td>
+        <td>Evan Afif Saputra</td>
+        <td>Rukun Wudhu terbagi atas 6 perkara</td>
+        <td>Kitab Saffinah Tunnajah</td>
+      </tr>
+      <tr>
+        <td>Kisah Imam Ahmad bin Hambal</td>
+        <td>26 September 2015</td>
+        <td>Ugi Ispoyo Widodo</td>
+        <td>Dari Imam Yahya bin Ma’in : “ saya tidak pernah melihat seseorang seperti Imam Ahmad bin Hanbal dan kami telah bersahabat dengannya selama 50 tahun , tidak pernah beliau membanggakan kebaikan yang ada pada dirinya “.</td>
+        <td>www.addhiyaullami.org</td>
+      </tr>
+      <tr>
+        <td>Hadits Tentang Menuntut Ilmu</td>
+        <td>27 September 2015</td>
+        <td>Evan Afif Saputra</td>
+        <td> كُنْ عَا لِـمًا اَوْ مُتَعَـلِّمـًا اَوْمُستَمِـعًا اَوْ مُحِبًّا وَلاَ تَكُنْ خَـامِسًا فَتَهْلَكُ
+Jadilah engkau orang yang berilmu atau pelajar atau atau pendengar atau pecinta dan janganlah menjadi orang yang kelima.
+Kun ‘aliman jadilah engkau orang ‘alim yang berilmu , Awmuta’aliman orang yang teratur belajar , itu alternatif yang kedua. Awmustami’an atau pendengar atau ngaji hanya mendengarkan. Alhamdulillah masih menjadi pendengar dibanding yang ke empat hanya muhibban . Awmuhibban atau hanya pecinta, itupun masih beruntung karena masih ada rasa cinta kepada orang-orang yang berilmu , cinta kepada orang-orang yang beriman , para ulama-ulama ‘amilin shalihin. Dan jangan jadi golongan yang ke lima Walam takun , maka akan binasa, ‘alim tidak , mustami’ atau pendengar tidak , muhibban juga tidak. Subhanallah , na’uzubillah golongan orang yang ke lima ini bakal celaka. Jadi naikkanlah jabatan dari mustami’ menjadi muta’alim. Muta’alim yang membawa kitab , membawa catatan.</td>
+        <td>www.addhiyaullami.org</td>
+      </tr>
+    </table>
+  </body>
+</html>

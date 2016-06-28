@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Login Admin</title>
+<script type="text/javascript">
+function login() {
+	var user = document.loginform.Email.value;
+    var pswd = document.loginform.Passwd.value; 
+	if(user=="coba" && pswd=="123")
+  {
+	window.location = "home.hta";
+   javascript:window.close();
+  }
+  else {
+		alert("Username Dan Password Anda Salah!");
+   javascript:window.close();
+  }
+}
+</script>
+</head>
+<body>
+<body bgcolor="lightyellow">
+<table border="0" width="310px" align="center">
+<tr>
+<td>
+<fieldset><legend>Form Login</legend>
+<table bolder="0" width="300px" align="center">
+<tr>
+<td width="70px">
+<form name="loginform" id="loginform" >
+Username</td><td width="10px"> :</td>
+<td width="230px">
+<input type="text" name="Email" value="" />
+</td>
+</tr>
+<tr>
+<td>
+Password
+</td>
+<td>
+ :</td>
+ <td>
+<input type="password" name="Passwd" value="" />
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<input type="submit" onClick="login()" value="Login" />
+<input type="reset" value="Hapus"/>
+</td>
+</tr>
+</table>
+</fieldset>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

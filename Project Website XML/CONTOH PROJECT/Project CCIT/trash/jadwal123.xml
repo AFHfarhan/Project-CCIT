@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Jadwal Majelis</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>Acara</th>
+        <th>Tanggal</th>
+        <th>Waktu</th>
+        <th>Alamat</th>
+        <th>Pembicara</th>
+      </tr>
+      <tr>
+        <td>Jalsalatul Isnain</td>
+        <td>21 September  2015</td>
+        <td>08.05pm-10.15pm</td>
+        <td>Masjid Al Munawar Jalan Raya Pasar Minggu</td>
+        <td>Al Ustad Ubaidillah Chalid</td>
+      </tr>
+    </table>
+  </body>
+</html>

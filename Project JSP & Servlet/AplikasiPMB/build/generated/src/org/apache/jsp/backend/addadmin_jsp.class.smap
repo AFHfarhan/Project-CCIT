@@ -1,0 +1,42 @@
+SMAP
+addadmin_jsp.java
+JSP
+*S JSP
+*F
++ 0 addadmin.jsp
+backend/addadmin.jsp
++ 1 data-menu.jsp
+backend/data-menu.jsp
++ 2 data-header.jsp
+backend/data-header.jsp
++ 3 data-footer.jsp
+backend/data-footer.jsp
+*L
+5,59:61
+5#1,6:120
+11,2:18
+12,6:126
+18,20:133
+37,30:153
+67,2:184
+68,19:186
+86,3:205
+88,2:208
+63#0,2:210
+65,6:213
+70,41:219
+5#2,15:260
+20,10:276
+29,6:286
+110#0,33:291
+143,23:325
+165,21:348
+186,4:370
+189:374
+190,2:375,3
+192,6:381
+198,4:388
+201,46:392
+5#3,4:438
+246#0,121:442
+*E

@@ -1,0 +1,101 @@
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\Latihan C#\project\GUI\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.csproj.GenerateResource.Cache
+D:\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\dika\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\dika\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\dika\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\dika\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\CCIT\SEMESTER III\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.csprojResolveAssemblyReference.cache
+D:\dika\New Folder\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\dika\New Folder\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\dika\New Folder\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.csprojResolveAssemblyReference.cache
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+\\UGIISPOYOWIDODO\dika\New Folder\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.csproj.GenerateResource.Cache
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe.config
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.exe
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.pdb
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.exe
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\bin\Debug\CCITLibrary.pdb
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Admin.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Buku.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Login.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Member.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.MenuUtama.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Peminjaman.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\CCITLibrary.Properties.Resources.resources
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CCIT\Project\Project C# Dekstop Sql Server\CCITLibrary\CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog

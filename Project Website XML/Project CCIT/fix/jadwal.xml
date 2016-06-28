@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jadwal>
+	<dataAcara ID="J001">
+    	<acara>Jalsalatul Isnain</acara>
+        <tanggal>21 September  2015</tanggal>
+        <waktu>08.05pm-10.15pm</waktu>
+        <alamat>Masjid Al Munawar Jalan Raya Pasar Minggu</alamat>
+        <pembicara>Al Ustad Ubaidillah Chalid</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J002">
+    	<acara></acara>
+    	<tanggal>28 September 2015</tanggal>
+    	<waktu></waktu>
+    	<alamat></alamat>
+    	<pembicara></pembicara>
+	</dataAcara>
+</jadwal>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/UDO/Debugging/XML/DPC.xsl"?>
+<DPCS>
+	<DPC>
+		<PROVINSI>ACEH</PROVINSI>
+		<KABKOT>Kota Banda Aceh</KABKOT>
+		<KETUA>Syafrinal, BA</KETUA>
+		<WAKIL>Rajuddin, M.pd</WAKIL>
+		<POS>23111</POS>
+		<ALAMAT>Jln. H. Dimurtala No 22 Gampong Kuta Alam, Kec. Kuta Alam, Kota Banda Aceh</ALAMAT>
+		<TELPON>085260243617</TELPON>
+		<FAX>7446532</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SUMATRA UTARA</PROVINSI>
+		<KABKOT>Kota Medan</KABKOT>
+		<KETUA>Subekti, SH</KETUA>
+		<WAKIL>Fanya Septanti</WAKIL>
+		<POS>20111</POS>
+		<ALAMAT>Jl.Mojopahit No 4A Medan  </ALAMAT>
+		<TELPON>081376701000</TELPON>
+		<FAX>74712331</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SUMATRA BARAT</PROVINSI>
+		<KABKOT>Kota Padang</KABKOT>
+		<KETUA>Widyoningsih</KETUA>
+		<WAKIL>Hamidah</WAKIL>
+		<POS>25111</POS>
+		<ALAMAT>Jl. Veteran No. 24 A Padang</ALAMAT>
+		<TELPON>081266231111</TELPON>
+		<FAX>7456314</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SUMATRA SELATAN</PROVINSI>
+		<KABKOT>Kota Palembang</KABKOT>
+		<KETUA>Gaharu, SE, MM</KETUA>
+		<WAKIL>Rumanah, SH</WAKIL>
+		<POS>30111</POS>
+		<ALAMAT>JL.AKBP Cek Agus RT. 03 RW. 01 No. 274, Kel. Duku, Kec. IT II, Kota Palembang</ALAMAT>
+		<TELPON>087889456231</TELPON>
+		<FAX>7898541</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>RIAU</PROVINSI>
+		<KABKOT>Kota Pekanbaru</KABKOT>
+		<KETUA>Saka Permana, S.Ag</KETUA>
+		<WAKIL>Samuel Elya Sandro</WAKIL>
+		<POS>28111</POS>
+		<ALAMAT>Jl. Dahlia no. 100 C    Pekanbaru</ALAMAT>
+		<TELPON>087880819389</TELPON>
+		<FAX>8721380</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>KEP. RIAU</PROVINSI>
+		<KABKOT>kota Batam</KABKOT>
+		<KETUA>Iman Sutiawan</KETUA>
+		<WAKIL>Heru Nerly</WAKIL>
+		<POS>29111</POS>
+		<ALAMAT>Jl Sudirman Komplek Superblok Imperium Blok B No.42 Batam Kep. Riau </ALAMAT>
+		<TELPON>081372977779</TELPON>
+		<FAX>7342081</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>JAMBI</PROVINSI>
+		<KABKOT>Kabupaten Kerinci</KABKOT>
+		<KETUA>Hendri Putra</KETUA>
+		<WAKIL>Anuar Awang</WAKIL>
+		<POS>36111</POS>
+		<ALAMAT>Jl. Raya Koto Lebuh Tinggi No. 27 Kec. Siulak Kab. Kerinci </ALAMAT>
+		<TELPON>083456813284</TELPON>
+		<FAX>7883563</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>BENGKULU</PROVINSI>
+		<KABKOT>Kota Bengkulu</KABKOT>
+		<KETUA>Martin Salim</KETUA>
+		<WAKIL>Farida Murti</WAKIL>
+		<POS>381113</POS>
+		<ALAMAT>Jl. Rinjani Kel. Jembatan Kecil Kec. Gading Cempaka. Kota Bengkulu</ALAMAT>
+		<TELPON>081234718511</TELPON>
+		<FAX>7908659</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>BABEL</PROVINSI>
+		<KABKOT>Kabupaten Bangka</KABKOT>
+		<KETUA>Fikri Dirmansah</KETUA>
+		<WAKIL>Sutomo</WAKIL>
+		<POS>33111</POS>
+		<ALAMAT>Jalan Batin Tikal No. 8, Sungailiat, Kab. Bangka</ALAMAT>
+		<TELPON>087885554304</TELPON>
+		<FAX>7172878</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>LAMPUNG</PROVINSI>
+		<KABKOT>Kota Bandar Lampung</KABKOT>
+		<KETUA>Oesmardi</KETUA>
+		<WAKIL>Rasyid bakri</WAKIL>
+		<POS>341111</POS>
+		<ALAMAT>Jl. Cut Nyak Din No 44/62 Palapa Tanjung Karang Pusat Bandar Lampung</ALAMAT>
+		<TELPON>0813385855344</TELPON>
+		<FAX>7234257</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>BANTEN</PROVINSI>
+		<KABKOT>Kota Serang</KABKOT>
+		<KETUA>Muslik Kusnadi</KETUA>
+		<WAKIL>Yoyon Sugiarto</WAKIL>
+		<POS>15111</POS>
+		<ALAMAT>JL.RAYA CILEGON NO.7 RT.01 RW.06 KP.KEPANDEAN KEL.KAGUNGAN KEC.SERANG KOTA SERANG</ALAMAT>
+		<TELPON>083998756332</TELPON>
+		<FAX>96863216</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>DKI JAKARTA</PROVINSI>
+		<KABKOT>Jakarta Pusat</KABKOT>
+		<KETUA>Danudirja</KETUA>
+		<WAKIL>Condro Susilo</WAKIL>
+		<POS>10110</POS>
+		<ALAMAT>Jl. Bendungan Hilir Raya No. 118</ALAMAT>
+		<TELPON>081513156026</TELPON>
+		<FAX>7318469</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>JAWA BARAT</PROVINSI>
+		<KABKOT>Kota Bandung</KABKOT>
+		<KETUA>Tony Wijaya</KETUA>
+		<WAKIL>Rony Dwikora</WAKIL>
+		<POS>16110</POS>
+		<ALAMAT>Jl. Cimanuk No. 42 Bandung</ALAMAT>
+		<TELPON>08176808640</TELPON>
+		<FAX>7312645</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>JAWA TENGAH</PROVINSI>
+		<KABKOT>Kota Semarang </KABKOT>
+		<KETUA>Reza Hariwibowo</KETUA>
+		<WAKIL>Suhaebi</WAKIL>
+		<POS>50111</POS>
+		<ALAMAT>Jl. Siliwangi 508 Semarang </ALAMAT>
+		<TELPON>08122936954</TELPON>
+		<FAX>7052988</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>D.I YOGYAKARTA</PROVINSI>
+		<KABKOT>Kota Yogyakarta</KABKOT>
+		<KETUA>Gunawan, SH</KETUA>
+		<WAKIL>Ahmad Jufrianto</WAKIL>
+		<POS>55111</POS>
+		<ALAMAT>Jl. Printis Kemerdekaan No. 19A, Pandeyan, Umbulharjo</ALAMAT>
+		<TELPON>081328850668</TELPON>
+		<FAX>7832938</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>JAWA TIMUR</PROVINSI>
+		<KABKOT>Kota Surabaya</KABKOT>
+		<KETUA>Muchlas Fahmi, SH, MH</KETUA>
+		<WAKIL>Imron Rosyadi</WAKIL>
+		<POS>60111</POS>
+		<ALAMAT>Jl. Kupang Baru II No. 7 Kota Surabaya</ALAMAT>
+		<TELPON>082131889155</TELPON>
+		<FAX>9825603</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>KALIMANTAN BARAT</PROVINSI>
+		<KABKOT>Kabupaten Kutai Kertanegara</KABKOT>
+		<KETUA>Zulkarnain, SH</KETUA>
+		<WAKIL>Lim Eddy Hartono</WAKIL>
+		<POS>78111</POS>
+		<ALAMAT>Jl. Bougenville No. 03 Rt.XXVIII. kel. Panji kec. Tenggarong</ALAMAT>
+		<TELPON>085246189584</TELPON>
+		<FAX>76745290</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>KALIMANTAN TENGAH</PROVINSI>
+		<KABKOT>Kabupaten Kapuas</KABKOT>
+		<KETUA>Triyanto</KETUA>
+		<WAKIL>Yosi Irawan</WAKIL>
+		<POS>73111</POS>
+		<ALAMAT>Jl. Tjilik Riwut No. 101 RT. XIII Kel. Selat Dalam Kab. Kapuas</ALAMAT>
+		<TELPON>085252729857</TELPON>
+		<FAX>7118561</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>KALIMANTAN TIMUR</PROVINSI>
+		<KABKOT>Kota Pontianak</KABKOT>
+		<KETUA>Chandra Dicky</KETUA>
+		<WAKIL>Muafi Istiqlal</WAKIL>
+		<POS>75111</POS>
+		<ALAMAT>Jl. Cempaka no.63. kec.mempawah hilir</ALAMAT>
+		<TELPON>081352038081</TELPON>
+		<FAX>7819275</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>KALIMANTAN SELATAN</PROVINSI>
+		<KABKOT>Kota Banjrarmasin</KABKOT>
+		<KETUA> Nur Aini</KETUA>
+		<WAKIL>Maruan Saidi</WAKIL>
+		<POS>73111</POS>
+		<ALAMAT>JL. BAKTI RT.05 PEMURUS DALAM, KOTA BANJARMASIN SELATAN</ALAMAT>
+		<TELPON>085249478895</TELPON>
+		<FAX>7818195</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SULAWESI SELATAN</PROVINSI>
+		<KABKOT>Kota Makasar</KABKOT>
+		<KETUA>Andi Mutahlib</KETUA>
+		<WAKIL>Sabarudin</WAKIL>
+		<POS>90111</POS>
+		<ALAMAT>Jl. Sam Ratulangi No. 53 A-B</ALAMAT>
+		<TELPON>081241399009</TELPON>
+		<FAX>9774021</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SULAWESI TENGAH</PROVINSI>
+		<KABKOT>Kab Poso</KABKOT>
+		<KETUA>Asdik taha</KETUA>
+		<WAKIL>Mulawarman</WAKIL>
+		<POS>94111</POS>
+		<ALAMAT>Jl. Morarena II No. 52 Kel. Kawua Kec. Poso Kota Kab. Poso </ALAMAT>
+		<TELPON>081354378237</TELPON>
+		<FAX>9198488</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SULAWESI BARAT</PROVINSI>
+		<KABKOT>Kabupaten Mamuju</KABKOT>
+		<KETUA>Daus Sudirman </KETUA>
+		<WAKIL>Ishak Salim</WAKIL>
+		<POS/>
+		<ALAMAT>JL. KUSNI TAMRIN NO.3 MAMUJU</ALAMAT>
+		<TELPON>081242757740</TELPON>
+		<FAX>7759120</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>GORONTALO</PROVINSI>
+		<KABKOT>Kota Gorontalo</KABKOT>
+		<KETUA>Basir Muzadi</KETUA>
+		<WAKIL>Helga Irena</WAKIL>
+		<POS>96111</POS>
+		<ALAMAT>Jl. H.J. Rahman Ksatria Tilaah Kota Gorontalo</ALAMAT>
+		<TELPON>085256848585</TELPON>
+		<FAX>7028311</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SULAWESI TENGGARA</PROVINSI>
+		<KABKOT>Kabupaten Boalemo</KABKOT>
+		<KETUA>Abdul Kadir</KETUA>
+		<WAKIL>Ansar Akuba</WAKIL>
+		<POS>93111</POS>
+		<ALAMAT>Jl. H.J. Rahman Desa Limbato Tilamuta Kabupaten Boalemo</ALAMAT>
+		<TELPON>085256848585</TELPON>
+		<FAX>7028311</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>SULAWESI UTARA</PROVINSI>
+		<KABKOT>Kota manado</KABKOT>
+		<KETUA>Herry Tombeng</KETUA>
+		<WAKIL>Ledy Dumirah</WAKIL>
+		<POS>95111</POS>
+		<ALAMAT>Jl. 17 Agustus No. 14 Manado</ALAMAT>
+		<TELPON>081398388877</TELPON>
+		<FAX>0431-841091</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>BALI</PROVINSI>
+		<KABKOT>Kota Denpasar</KABKOT>
+		<KETUA>Putu Wardahana</KETUA>
+		<WAKIL>I nyoman Kabes</WAKIL>
+		<POS>80111</POS>
+		<ALAMAT>Jl.Bay Pas Ngurah Rai,Pertokoan Griya Sanur No 1</ALAMAT>
+		<TELPON>081353015885</TELPON>
+		<FAX>8718293</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>NTT</PROVINSI>
+		<KABKOT>Kabupaten flores</KABKOT>
+		<KETUA>Fransiskus</KETUA>
+		<WAKIL>Nehemian</WAKIL>
+		<POS>85111</POS>
+		<ALAMAT>JLN. MAYJEN SUPARDI RT/RW. 19/08 KEC. LEOLERE</ALAMAT>
+		<TELPON>085253240366</TELPON>
+		<FAX>8237712</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>NTB</PROVINSI>
+		<KABKOT>Kota Mataram</KABKOT>
+		<KETUA>Sawaludin</KETUA>
+		<WAKIL>Iwan Hamdika</WAKIL>
+		<POS>83115</POS>
+		<ALAMAT>Jl. Koperasi 177, Kel. Pejeruk, Kec. Apenan</ALAMAT>
+		<TELPON>085333784446</TELPON>
+		<FAX>9098172</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>MALUKU UTARA</PROVINSI>
+		<KABKOT>Kota Ternate</KABKOT>
+		<KETUA>Manahati Lestusen</KETUA>
+		<WAKIL>Stevie Tuasalamony</WAKIL>
+		<POS>97711</POS>
+		<ALAMAT>Jl. Hi Yusuf Maajabesi No. 020 Komp. Kampung Baru Kel. Soffy Kec. Oba Utara</ALAMAT>
+		<TELPON>081340166885</TELPON>
+		<FAX>9129399</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>MALUKU</PROVINSI>
+		<KABKOT>Kota Ambon</KABKOT>
+		<KETUA>Juan Sabena</KETUA>
+		<WAKIL>Ruben Sanadi</WAKIL>
+		<POS>977114</POS>
+		<ALAMAT>Jl. Nn. Saar Sopacua no.16 Rt. 05/04 Kel. Kadawati</ALAMAT>
+		<TELPON>081343203125</TELPON>
+		<FAX>8785213</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>PAPUA</PROVINSI>
+		<KABKOT>Kabupaten Sorong Selatan</KABKOT>
+		<KETUA>Yesaya Tauna</KETUA>
+		<WAKIL>Matheus sandi</WAKIL>
+		<POS>98111</POS>
+		<ALAMAT>Jl. Silas pappre, samping rm. Angga, kel. waisai</ALAMAT>
+		<TELPON>085244043895</TELPON>
+		<FAX>8459010</FAX>
+	</DPC>
+	<DPC>
+		<PROVINSI>PAPUA BARAT</PROVINSI>
+		<KABKOT>Kota Jayapura</KABKOT>
+		<KETUA>Steven Bonsapian</KETUA>
+		<WAKIL>Kanisia Waile</WAKIL>
+		<POS>98114</POS>
+		<ALAMAT>Hotel Papua Jl. Percetakan No. 78 Jayapura</ALAMAT>
+		<TELPON>081315212237</TELPON>
+		<FAX>9813447</FAX>
+	</DPC>
+</DPCS>

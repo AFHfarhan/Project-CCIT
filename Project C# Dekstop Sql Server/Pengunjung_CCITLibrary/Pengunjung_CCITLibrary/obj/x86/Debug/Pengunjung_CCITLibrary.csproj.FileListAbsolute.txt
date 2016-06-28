@@ -1,0 +1,31 @@
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.pdb
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Form1.resources
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Properties.Resources.resources
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.csproj.GenerateResource.Cache
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.exe
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.pdb
+C:\Users\Dika\documents\visual studio 2010\Projects\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe.config
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe.config
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.exe
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.pdb
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.pdb
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.csprojResolveAssemblyReference.cache
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Form1.resources
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Properties.Resources.resources
+D:\CCIT\SEMESTER III\PROJECT\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.csproj.GenerateResource.Cache
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe.config
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.exe
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.pdb
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.pdb
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Form1.resources
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.Properties.Resources.resources
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\dika\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\CCIT\Project\Project C# Dekstop Sql Server\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\bin\Debug\Pengunjung_CCITLibrary.exe.config
+D:\CCIT\Project\Project C# Dekstop Sql Server\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.exe
+D:\CCIT\Project\Project C# Dekstop Sql Server\Pengunjung_CCITLibrary\Pengunjung_CCITLibrary\obj\x86\Debug\Pengunjung_CCITLibrary.pdb

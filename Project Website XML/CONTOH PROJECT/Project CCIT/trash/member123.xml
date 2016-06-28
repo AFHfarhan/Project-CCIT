@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Data Member</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>NAMA</th>
+        <th>ALAMAT</th>
+        <th>TELEPON</th>
+        <th>EMAIL</th>
+        <th>PASSWORD</th>
+      </tr>
+      <tr>
+        <td>Budi</td>
+        <td>Jalan Raya Pasar Minggu 3</td>
+        <td>087888765432</td>
+        <td>budibud@gmail.com</td>
+        <td>budi123</td>
+      </tr>
+    </table>
+  </body>
+</html>

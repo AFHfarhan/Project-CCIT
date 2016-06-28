@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jadwal>
+	<dataAcara ID="J001">
+    	<acara>Jalsalatul Isnain</acara>
+        <tanggal>21 September  2015</tanggal>
+        <waktu>08.05pm-10.15pm</waktu>
+        <alamat>Masjid Al Munawar Jalan Raya Pasar Minggu</alamat>
+        <pembicara>Al Ustad Ubaidillah Chalid</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J002">
+    	<acara>Jalsaltul Isnain</acara>
+    	<tanggal>28 September 2015</tanggal>
+    	<waktu>08.05pm-10.15pm</waktu>
+    	<alamat>Masjid Al Munawar Jalan Raya Pasar Minggu</alamat>
+        <pembicara>Al Ustad Ubaidillah Chalid</pembicara>
+	</dataAcara>
+
+    <dataAcara ID="J003">
+        <acara>Tabligh Akbar Malam Minggu dan Ziarah Kubro</acara>
+        <tanggal>3 Oktober 2015</tanggal>
+        <waktu>08.30pm-10.00pm</waktu>
+        <alamat>KBMRS MUSHOLAH AR ROHMAH Jl.Raya kodau V Gg.Musholah Rt.04/013 Rawa lele, Jati Makmur, Pondok Gede - Bekasi</alamat>
+        <pembicara>Al Habib Jindan bin Novel bin Salim bin Jindan</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J004">
+        <acara>Tabligh Akbar Malam Minggu dan Ziarah Kubro</acara>
+        <tanggal>5 Oktober 2015</tanggal>
+        <waktu>08.05pm-10.15pm</waktu>
+        <alamat>Masjid Al Munawar Jalan Raya Pasar Minggu</alamat>
+        <pembicara>Al Ustad Ubaidillah Chalid</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J005">
+        <acara>Zikir Akbar Jalalah Malam Sabtu</acara>
+        <tanggal>9 Oktober 2015</tanggal>
+        <waktu>08.00pm-10.00pm</waktu>
+        <alamat>PPMRS Jalan.BKT Pulo Rt.06-07/01 Pulo gebang, Cakung - Jakarta Timur</alamat>
+        <pembicara>Al Habib Alwi bin Utsman bin Yahya</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J006">
+        <acara>Tabligh Akbar Malam Minggu dan Ziarah Kubro</acara>
+        <tanggal>10 Oktober 2015</tanggal>
+        <waktu>08.30pm-10.00pm</waktu>
+        <alamat>KBMRS FATMAWATI / MUSHOLAH AL MUAWANAH Jl. Poncol II Rt.013/07 Kel.Gandaria Selatan, kEC.Cilandak, - Jakarta Selatan</alamat>
+        <pembicara>Al Habib Jindan bin Novel bin Salim bin Jindan</pembicara>
+    </dataAcara>
+
+    <dataAcara ID="J007">
+        <acara>Tabligh Akbar Malam Minggu dan Ziarah Kubro</acara>
+        <tanggal>24 Oktober 2015</tanggal>
+        <waktu>08.30pm-10.00pm</waktu>
+        <alamat>MT.SYABABUN NABAWIY Jl.Swasembada barat raya Rt.01/09 Kebon Bawang, Tanjung.Priuk - Jakarta Utara</alamat>
+        <pembicara>Al Habib Jindan bin Novel bin Salim bin Jindan</pembicara>
+    </dataAcara>
+</jadwal>

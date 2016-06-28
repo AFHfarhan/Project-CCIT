@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Test</title>
+<script type="text/javascript">
+var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var FILENAME = 'D:\\Project Website\\Project CCIT\\admin\\writes.xml';
+
+function SaveXMLData() {
+var file = fso.CreateTextFile('D:\\Project Website\\Project CCIT\\admin\\writes.xml', true);
+file.WriteLine('<!--?xmlversion="1.0" encoding="utf-8" ?-->\n'); file.WriteLine('<personinfo>\n');
+
+file.Write(' <Person ');
+file.Write('Name="' + document.getElementById('txtname').value + '" ');
+file.Write('Address="' + document.getElementById('txtadd').value + '" ');
+file.Write('Address="' + document.getElementById('txtage').value + '" ');
+file.WriteLine('></Person>\n');
+
+file.WriteLine('</personinfo>\n');
+file.Close();
+}
+</script>
+</head>
+<body>
+Name :
+<input type="text" name="name" value="" id="txtname" /><br />
+Address :
+<input type="text" name="id" value="" id="txtadd" /><br />
+Age:
+<input type="text" name="write" value="" id="txtage" /><br />
+<input type="button" onclick="SaveXMLData()" value="submit";
+</body>
+</html>

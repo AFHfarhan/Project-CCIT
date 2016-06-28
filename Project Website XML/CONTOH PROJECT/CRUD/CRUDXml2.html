@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "    
+<html xmlns=" >    
+<head>    
+    <title>jsXml(IE)</title>    
+<script type="text/javascript">    
+        
+    var xmlDoc;     
+    var rootNode;     
+    
+	function coba()
+    {   
+		var xmlObj = new ActiveXObject("Microsoft.XMLDOM");
+		xmlObj.async=false;
+		xmlObj.load("MyFile.xml");
+		//alert(xmlObj.documentElement);
+
+		var val=xmlObj.documentElement;
+		
+		var temp = xmlObj.createElement("person");
+		val.appendChild(temp);
+		
+		var x = xmlObj.createElement("name");
+		x.text = form1.Nama.value;     
+		temp.appendChild(x);
+		 
+		var x = xmlObj.createElement("gender");
+		var e = document.getElementById("ddlViewBy");
+        x.text = e.options[e.selectedIndex].text;  
+		temp.appendChild(x);
+
+		xmlObj.Save("MyFile.xml");
+	}
+
+    function loadXml()
+    {     
+        try
+        {     
+            xmlDoc = new ActiveXObject("Microsoft.XMLDOM");     
+            xmlDoc.async=false;
+            xmlDoc.load("XmlFile.xml");  
+            rootNode = xmlDoc.documentElement;     
+        }
+        catch(e) {alert(e.message)}     
+    }     
+    
+    function outXml()
+    {     
+        var divXml=document.getElementById("divXml");     
+        divXml.innerHTML=xmlDoc.xml;     
+        alert(xmlDoc.xml);     
+    }     
+  
+    function addXml()
+    {    		 
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");     
+        xmlDoc.async=false;
+        xmlDoc.load("XmlFile.xml");  
+        rootNode = xmlDoc.documentElement;     
+		//catch(e) {alert(e.message)}  
+		
+        var newName = xmlDoc.createElement("name");      
+        newName.text = form1.Nama.value;     
+
+        var newGender = xmlDoc.createElement("gender");      
+        var e = document.getElementById("ddlViewBy");
+        newGender.text = e.options[e.selectedIndex].text;  
+
+        var newPerson = xmlDoc.createElement("person");      
+        newPerson.setAttribute("id","2");    
+		
+        newPerson.appendChild(newName);     
+        newPerson.appendChild(newGender);     
+        rootNode.appendChild(newPerson);     
+        //alert(xmlDoc.xml);   
+		xmlDoc.save("XMLFile.xml");	
+		//xmlDoc.write("XMLFile.xml");	
+    }     
+    
+    function deleteXml()
+    {     
+        var singleNode = xmlDoc.selectSingleNode("/root/person[name='tree']");     
+        singleNode.parentNode.removeChild(singleNode);      
+        alert(xmlDoc.xml);     
+    }     
+   
+    function updateXml()
+    {     
+        var singleNode = xmlDoc.selectSingleNode("/root/person[name='crane']");     
+        singleNode.childNodes[0].text = "updated";     
+        alert(xmlDoc.xml);     
+    }     
+
+    function queryXml()
+    {     
+        var singleNode = xmlDoc.selectSingleNode("/root/person[gender='female']");    
+        alert(singleNode.text);     
+        alert(singleNode.getAttribute("id"));     
+        var sglNode = xmlDoc.selectSingleNode("/root[person/gender='male']");     
+        alert(sglNode.text);     
+ 
+    }     
+         
+</script>    
+</head>    
+<body>    
+    <form name="form1">
+    <h1>FORM INPUT DATA</h1>
+    <fieldset>
+    <legend>Data Karyawan</legend>
+    <table width="750" border="0" cellspacing="1" cellpadding="1">
+    <tr>
+        <td>Name </td>
+        <td>
+            <input name="Nama" type="text" size="25"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <select id = "ddlViewBy">
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Person</td>
+        <td>
+            <input name="Name" type="text" size="25"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="divXml"></div>   
+            <input type="button" value="load" onclick="loadXml();" />    
+            <input type="button" value="show" onclick="outXml();" />    
+            <input type="button" value="add" onclick="addXml();" />    
+            <input type="button" value="delete" onclick="deleteXml();" />    
+            <input type="button" value="update" onclick="updateXml();" />    
+            <input type="button" value="query" onclick="queryXml();" />    
+        </td>
+    </tr>        
+   </table>
+</body>    
+</html> 

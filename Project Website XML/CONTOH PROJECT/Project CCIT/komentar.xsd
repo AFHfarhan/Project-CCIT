@@ -1,0 +1,13 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Komentar" type="KomentarType"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nama" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="komentar" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="balasKomentar" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="IDKomentar" type="xs:string">
+		<xs:pattern value="\K{1}\d{4}"/>
+		</xs:attribute>
+        </xs:complexType>
+</xs:schema>

@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<HEAD>
+
+<TITLE>Dewan Perwakilan Cabang</TITLE>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<SCRIPT>
+function semua() 
+{
+    var objResTree = document.all['transformedXML'];
+    var objSrcTree = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    var objXSLT = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    objSrcTree.load('DPC.xml');
+    objXSLT.load('DPC.xsl');
+    strResult = objSrcTree.transformNode(objXSLT);
+    objResTree.innerHTML = strResult;
+    return true;
+}
+function asc()
+{
+	var objResTree = document.all['transformedXML'];
+    var objSrcTree = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    var objXSLT = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    objSrcTree.load('DPC.xml');
+    objXSLT.load('DPC1.xsl');
+    strResult = objSrcTree.transformNode(objXSLT);
+    objResTree.innerHTML = strResult;
+    return true;
+}
+function desc()
+{
+	var objResTree = document.all['transformedXML'];
+    var objSrcTree = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    var objXSLT = new ActiveXObject('MSXML2.DOMDocument.6.0');
+    objSrcTree.load('DPC.xml');
+    objXSLT.load('DPC2.xsl');
+    strResult = objSrcTree.transformNode(objXSLT);
+    objResTree.innerHTML = strResult;
+    return true;
+}
+</SCRIPT>
+</HEAD>
+<BODY onload="semua();">
+	<div id="art-main">
+	<div class="art-sheet">
+         <div class="art-header"></div>
+            	 <div class="art-header-jpeg"></div>
+            	 <div class="art-logo" class="art-logo-name">&nbsp;<p><font face="Arial" size="32" color=#003300>
+					</p>
+					</font></h1>
+					<div id="slogan-text" class="art-logo-text"></div>
+            	 </div>
+            	 <div class="art-nav">
+            	 <div class="l"></div>         	 
+                 <ul class="art-menu">
+                 	<li><a href="page.html"><span class="l"></span><span class="t">Beranda</span></a></li>
+                 	<li><a href="Transform.html" ><span class="l"></span><span class="t">Berita</span></a></li>
+            		<li><a href="profil.htm" ><span class="l"></span><span class="t">Profil</span></a></li>
+                 	<li><a href="dpc.htm" class="active"><span class="l"></span><span class="t">DPC</span></a></li>
+                 	<li><a href="struktur.htm"><span class="l"></span><span class="t">Struktur</span></a></li>
+                 	<li><a href="koalisi.htm"><span class="l"></span><span class="t">Koalisi</span></a></li>
+                 	<li><a href="sayap.htm"><span class="l"></span><span class="t">Sayap Partai</span></a></li>
+                 	<li><a href="registrasi.htm"><span class="l"></span><span class="t">Registrasi Anggota</span></a></li>
+                 </ul>
+            	  <div class="art-content-layout">
+            	  
+            	  		<div class="art-layout-cell art-sidebar1">
+            	  			<div class="art-vmenublock">
+            	  				<div class="art-vmenublockcontent">
+            	  					<div class="art-vmenublockcontent-body">
+            	  						<ul class="art-vmenu">             	
+            	  						</ul>
+            	  						<div class="cleared"></div>
+            	  					</div>
+            	  				</div>
+            	  				<div class="cleared"></div>
+            	  			</div>	
+            	  				<div class="art-blockheader">
+                                        <div class="l"></div>
+                                        <div class="r"></div>
+                                        <div class="t"><font color=#FFFFFF size=4px>Contact Info</font></div>
+                                    </div>
+                                    <div class="art-blockcontent">
+                                    	<div class="art-blockcontent-body">
+                                    		<div>
+                                              <img src="images/udo.jpg" alt="an image" style="margin: 0 auto;display:block;width:95%" />
+                                              <br />
+                                              <font color=#FFFFFF>
+                                              <b><center>Alamat Designer</center></b><br />
+                                              Pamulang MA, Jl.Bunga Lily D6/5 RT 03 RW 011<br /><br>
+                                              Email: <a href="mailto:arditaridya@gmail.com">arditaridya@gmail.com</a><br />
+                                              Twitter:<a href="http://twiiter.com/riyanudoh">@riyanudoh</a><br />
+                                              Facebook:<a href="http://facebook.com/ridyaardita">Ridya Ardita</a><br>
+                                              Phone: (087) 880819389 <br />
+                                              Fax: (021) 7443932<br>
+                                              Pin BB: 2966995D
+                                              </font>
+                                             </div>
+                                             <div class="cleared"></div>
+                                    	</div>
+                                </div>
+                                    <div class="cleared"></div>              	  		 
+            	  					<div class="art-blockheader">
+                                        <div class="l"></div>
+                                        <div class="r"></div>
+                                        <div class="t"><font color=#FFFFFF size=4px>Contact Info Partai</font></div>
+                                    </div>
+                                    <div class="art-blockcontent">
+                                    	<div class="art-blockcontent-body">
+                                    		<div>
+                                              <img src="images/contact.jpg" alt="an image" style="margin: 0 auto;display:block;width:95%" />
+                                              <br />
+                                              <font color=#FFFFFF>
+                                              <b><center>Alamat Partai</center></b><br />
+                                              Pamulang MA, Jl.Bunga Lily D6/5 RT 03 RW 011<br /><br>
+                                              Email: <a href="mailto:arditaridya@gmail.com">arditaridya@gmail.com</a><br />
+                                              Twitter:<a href="http://twiiter.com/riyanudoh">@riyanudoh</a><br />
+                                              Facebook:<a href="http://facebook.com/ridyaardita">Ridya Ardita</a><br>
+                                              Phone: (087) 885554304 <br />
+                                              Fax: (021) 7895513<br>
+                                              Pin BB: 2966995D
+                                              </font>
+                                             </div>
+                                             <div class="cleared"></div>
+                                    	</div>
+                                    </div>
+                                    <div class="cleared"></div>
+            	  	</div>
+            	  	<div class="art-layout-cell art-content">
+            	  		    <div class="art-post-inner art-article">
+            	  		 	 		<h4 class="art-postheader">
+                                     <center><font face="Snap ITC" size="75">Dewan Perwakilan Cabang</font></center>
+                                    </h4>
+                                    <center>Urutkan Provinsi :
+									<INPUT type="button" value="A-Z" onClick="asc()"/>
+									<INPUT type="button" value="Z-A" onClick="desc()"/>
+									<br><br>
+									<DIV id='transformedXML'></DIV>                                                                                                                           						       
+              	  		 	</div> 	
+            	  		  <div class="cleared"></div>			
+            	  	</div>	  	
+            	 </div>
+            	 <div class="cleared"></div>
+				 <div class="art-footer" style="width: 1055px; height: 44px">
+				 	<div class="art-footer-t"></div>
+                    <div class="art-footer-l"></div>
+                    <div class="art-footer-b"></div>
+                    <div class="art-footer-r"></div>
+                     <div class="art-footer-body">
+                     	 <div class="art-footer-text"><br>
+                     	 	<a href="#" class="art-rss-tag-icon" title="RSS"></a>
+                            <p><font color=#FFFFFF> by Udoh and Alif Rizkie San Copyright &copy;
+                            	 2014 ---. All Rights Reserved.</font></p>
+                        </div>
+                		<div class="cleared"></div>
+                     </div>
+				  </div>
+				  <div class="cleared"></div>
+			 </div>
+			</div>				
+			<div class="cleared"></div>
+</BODY>
+</HTML>

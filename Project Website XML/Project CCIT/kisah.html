@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Suara Santri</title>
+<link href="images/icon.ico" rel="icon" type="images/x-icon">
+<script type="text/javascript">
+    
+    function semua() 
+    {
+      if(document.implementation && document.implementation.createDocument)
+            {
+                var sst = new XMLHttpRequest();
+                sst.open("GET","berita.xml",false);
+                sst.send("");
+                xml=sst.responseXML;
+
+                var sst = new XMLHttpRequest();
+                sst.open("GET","kisah.xsl",false);
+                sst.send("");
+                xsl= sst.responseXML;
+
+                xsltp = new XSLTProcessor();
+                xsltp.importStylesheet(xsl);
+                result =  xsltp.transformToFragment(xml,document);
+
+                document.getElementById('x').appendChild(result);
+            }
+    }
+</script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="css/clndr.css" type="text/css">
+ <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+ <script src="js/jquery_002.js"></script>
+  <script src="js/jquery-1.js"></script>
+   <script src="js/jquery_003.js"></script>
+   <script src="js/jquery.js"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/moment-2.js"></script>
+  <script src="js/clndr.js"></script>
+  <script src="js/site.js"></script>
+<script type="text/javascript" src="js/time.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('.flexslider').flexslider({
+		animation: "slide"
+	});
+});
+</script>
+</head>
+
+<body onload="semua();" bgcolor="#CCAB44">
+<div class="wrap">
+	<div class="header">
+    <img src="images/suara-santri.png" alt="Logo IMG" />
+    </div>
+    <div class="menu_atas">
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Berita</a>
+        <ul>
+            	<li><a href="tokoh.html">Tokoh</a></li>
+                <li><a href="kisah.html">Kisah Teladan</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Artikel</a>
+        	<ul>
+            	<li><a href="fiqih.html">Fiqih</a></li>
+                <li><a href="hadits.html">Hadist</a></li>
+                <li><a href="sejarah.html">Sejarah Islam</a></li>
+            </ul>
+        </li>
+        <li><a href="jadwal.html">Jadwal Majelis</a></li>
+    </ul>
+ 
+<form id="cari">
+    <span>
+        <img src="images/cari.png">
+        <input id="txtcari" placeholder="Pencarian.." type="text">
+    </span>
+</form>
+    </div>
+    <div class="content">
+      <div class="isi_content">
+        <div id="x">
+       </div>   
+      </div>
+    	<div class="menu_kanan">
+    		<div class="form_login">
+            <h2>Form Login Member :</h2>
+        		<form id="login">
+                <span>
+                <img src="images/user.png">
+                <input placeholder="Username.." type="text">
+                </span>
+                <br>
+                <br>
+                <span>
+                <img src="images/gembok.png">
+                <input placeholder="Password.." type="password">
+                </span>
+                <br>
+                <input value="" type="submit">
+                <input value="" type="reset">
+                </form>
+        	</div>
+            <div class="kalender">
+            <div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">October 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="day past adjacent-month last-month calendar-day-2015-09-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2015-09-28"><div class="day-contents">28</div></td><td class="day past adjacent-month last-month calendar-day-2015-09-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2015-09-30"><div class="day-contents">30</div></td><td class="day past calendar-day-2015-10-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2015-10-02"><div class="day-contents">2</div></td><td class="day past calendar-day-2015-10-03"><div class="day-contents">3</div></td></tr><tr><td class="day past calendar-day-2015-10-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2015-10-05"><div class="day-contents">5</div></td><td class="day today calendar-day-2015-10-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-10-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-10-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-10-09"><div class="day-contents">9</div></td><td class="day event calendar-day-2015-10-10"><div class="day-contents">10</div></td></tr><tr><td class="day event calendar-day-2015-10-11"><div class="day-contents">11</div></td><td class="day event calendar-day-2015-10-12"><div class="day-contents">12</div></td><td class="day event calendar-day-2015-10-13"><div class="day-contents">13</div></td><td class="day event calendar-day-2015-10-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-10-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-10-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-10-17"><div class="day-contents">17</div></td></tr><tr><td class="day calendar-day-2015-10-18"><div class="day-contents">18</div></td><td class="day calendar-day-2015-10-19"><div class="day-contents">19</div></td><td class="day calendar-day-2015-10-20"><div class="day-contents">20</div></td><td class="day event calendar-day-2015-10-21"><div class="day-contents">21</div></td><td class="day event calendar-day-2015-10-22"><div class="day-contents">22</div></td><td class="day event calendar-day-2015-10-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-10-24"><div class="day-contents">24</div></td></tr><tr><td class="day calendar-day-2015-10-25"><div class="day-contents">25</div></td><td class="day calendar-day-2015-10-26"><div class="day-contents">26</div></td><td class="day calendar-day-2015-10-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-10-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-10-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-10-30"><div class="day-contents">30</div></td><td class="day calendar-day-2015-10-31"><div class="day-contents">31</div></td></tr></tbody></table></div></div>
+				   </div>
+            </div>
+        	<div class="jadwal_shalat">
+            <h2>Jadwal Shalat :</h2>
+        		<table style="margin-left:10px; color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:14px;" border="0" width="200px">
+  <tbody><tr>
+    <td colspan="3" width="100%">Wilayah JABODETABEK</td>
+  </tr>
+  <tr>
+    <td width="50px">Isya</td>
+    <td width="10px;">:</td>
+    <td width="20px">19.05 WIB</td>
+  </tr>
+  <tr>
+    <td>Subuh</td>
+    <td>:</td>
+    <td>04.55 WIB</td>
+  </tr>
+  <tr>
+    <td>Zuhur</td>
+    <td>:</td>
+    <td>11.55 WIB</td>
+  </tr>
+  <tr>
+    <td>Ashar</td>
+    <td>:</td>
+    <td>15.30 WIB</td>
+  </tr>
+  <tr>
+    <td>Magrib</td>
+    <td>:</td>
+    <td>18.05 WIB</td>
+  </tr>
+</tbody></table>
+            <hr style="border-radius='5px' dashed #FFF;">
+            <div id="digiclock" style="font-size:14px;font-family:Verdana, Helvetica, sans-serif; font-weight:bold; margin-left:10px;color:#FFF;width:200px;text-align:center;">02:46 AM Jam Sekarang</div>
+        	</div>
+    	</div>
+   </div>
+   <div class="footer">
+   <p>© 2015 Copyright by : Suara Santri.<br>
+   Web Design, Programers, &amp; Developers by : Evan &amp; Ugi.</p> 
+   </div>
+</div>
+
+
+ </body></html>

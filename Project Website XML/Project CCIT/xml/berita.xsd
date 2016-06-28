@@ -1,0 +1,37 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:element name="Kategori" type="kategoritipe"/>
+    <xs:complexType name="kategoritipe">
+        <xs:sequence>
+            <xs:element name="Tokoh" type="strukturtokoh">
+                <xs:complexType name="strukturtokoh">
+                    <xs:sequence>
+                        <xs:element name="judul" type="xs:string"/>
+                        <xs:element name="tanggal" type="xs:date"/>
+                        <xs:element name="penulis" type="xs:string"/>
+                        <xs:element name="isiBerita" type="xs:string"/>
+                        <xs:element name="gambar" type="xs:string"/>
+                        <xs:element name="sumber" type="xs:string"/>
+				<xs:attribute name="IDTokoh" type="xs:string" use="required"/>
+	  			<xs:pattern value="\[T]{1}d{4}"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="kisahTeladan">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="judul" type="xs:string"/>
+                        <xs:element name="tanggal" type="xs:date"/>
+                        <xs:element name="penulis" type="xs:string"/>
+                        <xs:element name="isiBerita" type="xs:string"/>
+                        <xs:element name="gambar" type="xs:string"/>
+                        <xs:element name="sumber" type="xs:string"/>
+				<xs:attribute name="IDKisah" type="xs:string" use="required"/>
+	  			<xs:pattern value="\[K]{1}d{4}"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="IDBerita" type="xs:string" use="required"/>
+	  <xs:pattern value="\[B]{1}d{4}"/>
+    </xs:complexType>
+</xs:schema>

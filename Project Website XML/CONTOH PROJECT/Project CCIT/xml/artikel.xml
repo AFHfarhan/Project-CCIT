@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artikel>
+  <kategori nama="Fiqih">
+    <judul>Rukun Wudhu</judul>
+    <tanggal>25 September 2015</tanggal>
+    <penulis>Evan Afif Saputra</penulis>
+    <isiArtikel>فصل - فروض الوضوء ستة: الأول:النية ، الثاني : غسل الوجه ، الثالث: غسل اليدين مع المرفقين ، الرابع : مسح شيء من الرأس ، الخامس : غسل الرجلين مع الكعبين ، السادس :الترتيب
+    <p><br>Rukun wudhu ada enam, yaitu:</br></p>
+
+    1. Niat.
+    2. Membasuh muka
+    3. Membasuh kedua tangan serta kedua siku.
+    4. Menyapu sebagian kepala.
+    5. Membasuh kedua kaki serta kedua mata kaki
+    6. Tertib (berurutan)
+    </isiArtikel>
+    <gambar>Safinah-An-Najah1.jpg</gambar>
+    <sumber>Kitab Saffinah Tunnajah</sumber>
+  </kategori>
+
+  <kategori nama="Sejarah">
+    <judul>Kisah Imam Ahmad bin Hambal</judul>
+    <tanggal>26 September 2015</tanggal>
+    <penulis>Ugi Ispoyo Widodo</penulis>
+    <isiArtikel>Dari Imam Yahya bin Ma’in : “ saya tidak pernah melihat seseorang seperti Imam Ahmad bin Hanbal dan kami telah bersahabat dengannya selama 50 tahun , tidak pernah beliau membanggakan kebaikan yang ada pada dirinya “.</isiArtikel>
+    <gambar>imamAhmad.png</gambar>
+    <sumber>www.addhiyaullami.org</sumber>
+  </kategori>
+
+  <kategori nama="Hadits">
+    <judul>Hadits Tentang Menuntut Ilmu</judul>
+    <tanggal>27 September 2015</tanggal>
+    <penulis>Evan Afif Saputra</penulis>
+    <isiArtikel> كُنْ عَا لِـمًا اَوْ مُتَعَـلِّمـًا اَوْمُستَمِـعًا اَوْ مُحِبًّا وَلاَ تَكُنْ خَـامِسًا فَتَهْلَكُ
+    Jadilah engkau orang yang berilmu atau pelajar atau atau pendengar atau pecinta dan janganlah menjadi orang yang kelima.
+    Kun ‘aliman jadilah engkau orang ‘alim yang berilmu , Awmuta’aliman orang yang teratur belajar , itu alternatif yang kedua. Awmustami’an atau pendengar atau ngaji hanya mendengarkan. Alhamdulillah masih menjadi pendengar dibanding yang ke empat hanya muhibban . Awmuhibban atau hanya pecinta, itupun masih beruntung karena masih ada rasa cinta kepada orang-orang yang berilmu , cinta kepada orang-orang yang beriman , para ulama-ulama ‘amilin shalihin. Dan jangan jadi golongan yang ke lima Walam takun , maka akan binasa, ‘alim tidak , mustami’ atau pendengar tidak , muhibban juga tidak. Subhanallah , na’uzubillah golongan orang yang ke lima ini bakal celaka. Jadi naikkanlah jabatan dari mustami’ menjadi muta’alim. Muta’alim yang membawa kitab , membawa catatan.</isiArtikel>
+    <gambar>ilmu.png</gambar>
+    <sumber>www.addhiyaullami.org</sumber>
+   </kategori>
+</Artikel>

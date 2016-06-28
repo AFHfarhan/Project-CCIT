@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dataAcara" type="Acaratipe"/>
+    <xs:complexType name="Acaratipe">
+        <xs:sequence>
+            <xs:element name="Acara" type="xs:string"/>
+            <xs:element name="Tanggal" type="xs:date"/>
+            <xs:element name="Waktu" type="xs:time"/>
+            <xs:element name="Alamat" type="xs:string"/>
+            <xs:element name="Pembicara" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="IDJadwal" type="xs:string"/>
+	  <xs:pattern value="\[J]{1}d{4}/">
+    </xs:complexType>
+</xs:schema>

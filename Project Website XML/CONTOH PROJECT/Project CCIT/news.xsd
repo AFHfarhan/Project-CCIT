@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dhl.com/po.xsd" 
+xmlns="http://dhl.com/po.xsd" elementFormDefault="qualified">
+    <xs:element name="Category" type="CategoryType"/>
+    <xs:complexType name="CategoryType">
+        <xs:sequence>
+            <xs:element name="Figure" type="xs:string"/>
+            <xs:element name="ExemplaryStories" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="IDNews" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Tittle" type="xs:string"/>
+            <xs:element name="Date" type="xs:date"/>
+            <xs:element name="Writer" type="xs:string"/>
+            <xs:element name="Content" type="xs:string"/>
+            <xs:element name="Image" type="xs:"/>
+	    <xs:element name="Source" type="xs:string>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

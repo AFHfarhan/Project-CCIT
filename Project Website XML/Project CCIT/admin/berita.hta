@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Berita | Administrator</title>
+<script type="text/javascript">
+	var xmlDoc;     
+    var rootNode; 
+function tambahBerita()
+    {    		 
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");     
+        xmlDoc.async=false;
+        xmlDoc.load("../berita.xml");  
+        rootNode = xmlDoc.documentElement;     
+		//catch(e) {alert(e.message)}  
+		
+		var val_judul = document.tambah_berita.Judul.value;
+		var val_kat = document.tambah_berita.kategori.value;
+		var val_penulis = document.tambah_berita.penulis.value;
+		var val_isi = document.tambah_berita.isi.value;
+		var val_tanggal = document.tambah_berita.tanggal.value;
+		var val_gambar = document.tambah_berita.gambar.value;
+		var val_sumber = document.tambah_berita.sumber.value;
+		
+		if (val_judul == "")
+		{
+			alert("Judul Tidak Boleh Kosong");
+			tambah_berita.judul_berita.focus();
+			javascript:window.close();
+		}
+		else if (val_kat == "")
+		{
+			alert("Kategori Harus Dipilih");
+			tambah_berita.kategori.focus();
+			javascript:window.close();
+		}
+		else if (val_penulis == "")
+		{
+			alert("Penulis Tidak Boleh Kosong");
+			tambah_berita.penulis.focus();
+			javascript:window.close();
+		}
+		else if (val_isi == "" && val_isi.length < 50 )
+		{
+			alert("Isi Berita Tidak Boleh Kosong");
+			tambah_berita.isi.focus();
+			javascript:window.close();
+		}
+		else if (val_tanggal == "")
+		{
+			alert("Tanggal Tidak Boleh Kosong");
+			tambah_berita.tanggal.focus();
+			javascript:window.close();
+		}
+		else if (val_gambar == "")
+		{
+			alert("Gambar Tidak Boleh Kosong");
+			tambah_berita.gambar.focus();
+			javascript:window.close();
+		}
+		else if (val_sumber == "")
+		{
+			alert("Sumber Tidak Boleh Kosong");
+			tambah_berita.sumber.focus();
+			javascript:window.close();
+		}
+		else 
+		{
+		  
+		var ktg = document.tambah_berita.kategori.value;
+		
+		if (ktg == "Kisah")
+		{
+		var newJudul1 = xmlDoc.createElement("judul");
+        newJudul1.text = tambah_berita.Judul.value;
+		
+		var newKat = xmlDoc.createElement("kategori");      
+        var e = document.getElementById("kat");
+        newKat.text = e.options[e.selectedIndex].text;
+		
+        var newTanggal = xmlDoc.createElement("tanggal");      
+        newTanggal.text = tambah_berita.tanggal.value;
+		
+        var newIsi = xmlDoc.createElement("penulis");      
+        newIsi.text = tambah_berita.penulis.value;
+		
+        var newJudul = xmlDoc.createElement("isiBerita");      
+        newJudul.text = tambah_berita.isi.value;  
+		
+        var newGambar = xmlDoc.createElement("gambar");      
+        newGambar.text = tambah_berita.gambar.value;  
+		
+        var newSumber = xmlDoc.createElement("sumber");      
+        newSumber.text = tambah_berita.sumber.value; 
+
+        var newBerita = xmlDoc.createElement("kategori");      
+        newBerita.setAttribute("ID","K003");    
+		
+        newBerita.appendChild(newJudul1);   
+        newBerita.appendChild(newKat);     
+		newBerita.appendChild(newTanggal);     
+        newBerita.appendChild(newIsi); 
+		newBerita.appendChild(newJudul);     
+        newBerita.appendChild(newGambar);
+		newBerita.appendChild(newSumber);      
+        rootNode.appendChild(newBerita);     
+        //alert(xmlDoc.xml);   
+		xmlDoc.save("../berita.xml");	
+		alert("Data Berita Berhasil Di Tambah!");
+		javascript:window.close();
+		//xmlDoc.write("XMLFile.xml");
+	}
+		else 
+	{
+		var newJudul2 = xmlDoc.createElement("judulT");
+        newJudul2.text = tambah_berita.Judul.value;
+		
+		var newKat1 = xmlDoc.createElement("kategori");      
+        var e = document.getElementById("kat");
+        newKat1.text = e.options[e.selectedIndex].text;
+		
+		var newTanggal1 = xmlDoc.createElement("tanggalT");      
+        newTanggal1.text = tambah_berita.tanggal.value;
+		
+        var newIsi1 = xmlDoc.createElement("penulisT");      
+        newIsi1.text = tambah_berita.penulis.value;
+		
+        var newJudul1 = xmlDoc.createElement("isiBerita");      
+        newJudul1.text = tambah_berita.isi.value;  
+		
+        var newGambar1 = xmlDoc.createElement("gambar");      
+        newGambar1.text = tambah_berita.gambar.value;  
+		
+        var newSumber1 = xmlDoc.createElement("sumberT");      
+        newSumber1.text = tambah_berita.sumber.value; 
+
+        var newBerita1 = xmlDoc.createElement("kategori");      
+        newBerita1.setAttribute("ID","T003");    
+		
+        newBerita1.appendChild(newJudul2);   
+        newBerita1.appendChild(newKat1);     
+		newBerita1.appendChild(newTanggal1);     
+        newBerita1.appendChild(newIsi1); 
+		newBerita1.appendChild(newJudul1);     
+        newBerita1.appendChild(newGambar1);
+		newBerita1.appendChild(newSumber1);      
+        rootNode.appendChild(newBerita1);     
+        //alert(xmlDoc.xml);   
+		xmlDoc.save("../berita.xml");	
+		alert("Data Berita Berhasil Di Tambah!");
+		javascript:window.close();
+		//xmlDoc.write("XMLFile.xml");
+		}
+	}
+		} 
+	</script>
+	<style>
+ul {
+	list-style:none;
+}
+ul li a, a {
+	text-decoration:none;
+	color:#9C0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+}
+ul li a:hover, a:hover {
+	color:#FF0;
+}
+#kiri {
+	border-right:1px solid #000;
+}
+</style>
+</head>
+
+<body bgcolor="lightyellow">
+<h1>Berita | Administrator</h1>
+<hr>
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="16%" align="left" valign="top" id="kiri">
+    <h2>Menu</h2>
+    <ul>
+    	<li><a href="jadwal.hta">Jadwal</a></li>
+        <li><a href="berita.hta" onclick="javascript:window.close();">Berita</a></li>
+        <li><a href="artikel.hta">Artikel</a></li>
+    </ul>
+    </td>
+    <td width="84%" align="left" valign="top">
+	<table width="100%" border="0">
+  <tr>
+    <td width="42%" id="left">
+	<table width="634" border="0">
+<form name="tambah_berita">
+  <tr>
+    <td width="150">Judul</td>
+    <td width="10">:</td>
+    <td width="480">
+      <input type="text" name="Judul" size="40" />
+  </tr>
+  <tr>
+    <td>Kategori</td>
+    <td>:</td>
+    <td>
+      <select name="kategori" id="kat">
+        <option>Kategori</option>
+        <option value="Tokoh">Tokoh</option>
+        <option value="Kisah">Kisah</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td>Penulis</td>
+    <td>:</td>
+    <td>
+      <input type="text" name="penulis" size="30" id="textfield2" /></td>
+  </tr>
+  <tr>
+    <td valign="top">Isi Artikel</td>
+    <td>:</td>
+    <td>
+      <textarea name="isi" id="textarea" cols="45" rows="10"></textarea></td>
+  </tr>
+  <tr>
+    <td>Tanggal</td>
+    <td>:</td>
+    <td>
+      <input type="text" name="tanggal" size="20" width="100px" /></td>
+  </tr>
+  <tr>
+    <td>Gambar</td>
+    <td>:</td>
+    <td>
+      <input type="text" name="gambar" size="40" width="200px" /></td>
+  </tr>
+  <tr>
+    <td>Sumber</td>
+    <td>:</td>
+    <td>
+      <input type="text" name="sumber" size="45" width="250px" /></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><input type="submit" name="button" id="button" onclick="tambahBerita();" value="Simpan" />
+      <input type="reset" name="button2" id="button2" value="Reset" /></td>
+  </tr>
+  </form>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0">
+  <tr>
+    <td><a href="index.hta" onclick="javascript:window.close();">Keluar</a></td>
+  </tr>
+</table>
+</body>
+</html>

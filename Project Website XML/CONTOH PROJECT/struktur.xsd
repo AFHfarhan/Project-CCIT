@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:element name="ORGANISASI" type="prdata"/>
+		<xsd:complexType name="prdata">
+			<xsd:sequence>
+				<xsd:element name="ORGANISASI" type="prdt" maxOccurs="unbounded" minOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+		<xsd:complexType name="prdt">
+			<xsd:sequence>
+				<xsd:element name="NAMA" type="xsd:string"/>
+				<xsd:element name="WAKIL" type="xsd:string"/>
+				<xsd:element name="ANGGOTA" type="xsd:string"/>
+				<xsd:element name="ANGGOTA1" type="xsd:string"/>
+				<xsd:element name="ANGGOTA2" type="xsd:string"/>
+				<xsd:element name="ANGGOTA3" type="xsd:string"/>
+				<xsd:element name="ANGGOTA4" type="xsd:string"/>
+				<xsd:element name="ANGGOTA5" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+</xsd:schema>

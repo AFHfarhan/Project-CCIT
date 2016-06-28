@@ -1,0 +1,50 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Kategori" type="KategoriTipe"/>
+    <xs:complexType name="KategoriTipe">
+        <xs:sequence>
+            <xs:element name="Fiqih" type="dataFiqih">
+                <xs:complexType name="dataFiqih">
+                    <xs:sequence>
+                        <xs:element name="judul" type="xs:string"/>
+                        <xs:element name="tanggal" type="xs:date"/>
+                        <xs:element name="penulis" type="xs:string"/>
+                        <xs:element name="isiArtikel" type="xs:string"/>
+                        <xs:element name="gambar" type="xs:string"/>
+                        <xs:element name="sumber" type="xs:string"/>
+                        <xs:attribute name="IDFiqih" type="xs:string" use="required"/>
+                        <xs:pattern value="\[F]{1}d{4}"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Sejarah" type="dataSejarah">
+                <xs:complexType name="dataSejarah">
+                    <xs:sequence>
+                        <xs:element name="judul" type="xs:string"/>
+                        <xs:element name="tanggal" type="xs:date"/>
+                        <xs:element name="penulis" type="xs:string"/>
+                        <xs:element name="isiArtikel" type="xs:string"/>
+                        <xs:element name="gambar" type="xs:string"/>
+                        <xs:element name="sumber" type="xs:string"/>
+                        <xs:attribute name="IDSejarah" type="xs:string" use="required"/>
+                        <xs:pattern value="\[S]{1}d{4}"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Hadits">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="judul" type="xs:string"/>
+                        <xs:element name="tanggal" type="xs:date"/>
+                        <xs:element name="penulis" type="xs:string"/>
+                        <xs:element name="isiArtikel" type="xs:string"/>
+                        <xs:element name="gambar" type="xs:string"/>
+                        <xs:element name="sumber" type="xs:string"/>
+                        <xs:attribute name="IDHadits" type="xs:string" use="required"/>
+                        <xs:pattern value="\[H]{1}d{4}"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="IDArtikel" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:schema>
